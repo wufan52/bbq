@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical">
+
+	<ScrollView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_height="match_parent"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:paddingTop="65dp"
+			android:paddingBottom="20dp">
+
+			<EditText
+				android:layout_height="wrap_content"
+				android:inputType="text"
+				android:layout_width="match_parent"
+				android:ems="10"
+				android:background="#FFFFFFFF"
+				android:hint="你心里的那个他(她)"
+				android:id="@+id/bt"
+				android:textColor="@color/colorAccent"
+				android:textSize="20sp"/>
+
+			<View
+				android:background="?android:attr/dividerVertical"
+				android:layout_height="2dp"
+				android:layout_width="match_parent"/>
+
+			<android.support.design.widget.TextInputLayout
+				android:id="@+id/til_content"
+				app:errorEnabled="true"
+				app:counterEnabled="true"
+				app:counterMaxLength="1500"
+				app:hintTextAppearance="@style/colorAccent"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+				<EditText
+					android:id="@+id/ed_contents"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:hint="大胆的把心里话说出来！"
+					android:textColor="@color/colorAccent"/>
+
+				<ImageView
+					android:id="@+id/edit_img"
+					android:background="@mipmap/addimg"
+					android:layout_width="60dp"
+					android:onClick="choose_img"
+					android:layout_marginLeft="5dp"
+					android:layout_gravity="left"
+					android:layout_height="60dp"/>
+
+			</android.support.design.widget.TextInputLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+

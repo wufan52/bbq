@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<android.support.v7.widget.Toolbar
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"
+			android:id="@+id/activityloginToolbar1"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<LinearLayout
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:paddingTop="65dp"
+		android:paddingBottom="50dp">
+
+		<android.support.v4.widget.SwipeRefreshLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/swipe_re1">
+
+			<ListView
+				android:layout_height="match_parent"
+				android:layout_width="match_parent"
+				android:id="@+id/reListView1"/>
+
+		</android.support.v4.widget.SwipeRefreshLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/releaseLinearLayout"
+		android:layout_gravity="bottom"
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:background="#FFFFFF"
+		android:layout_alignParentBottom="true">
+
+		<View
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:background="#C1C1C1"
+			android:alpha="0.5"/>
+
+		<GridView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:numColumns="4"
+			android:columnWidth="90dp"
+			android:stretchMode="columnWidth"
+			android:verticalSpacing="10dp"
+			android:horizontalSpacing="10dp"
+			android:gravity="center"
+			android:id="@+id/gridView"/>
+
+	</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp"
+	android:gravity="center">
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="SaKura"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#F97296"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#F97296"
+			android:text="SaKura"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="cr"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FF55A26A"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FF55A26A"
+			android:text="初然"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="cq"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FFCA7472"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FFCA7472"
+			android:text="初秋"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="wg"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FF5FC4B8"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FF5FC4B8"
+			android:text="微光"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="zs"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FF775545"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FF775545"
+			android:text="棕色"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="lm"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FF6084C2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FF6084C2"
+			android:text="蕾姆"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="zy"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FFA494DF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FFA494DF"
+			android:text="紫苑"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center"
+		android:onClick="qw"
+		android:paddingLeft="10dp">
+
+		<ImageView
+			android:layout_height="20dp"
+			android:layout_width="20dp"
+			android:layout_marginRight="10dp"
+			android:background="#FFE84E75"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+            android:textColor="#FFE84E75"
+			android:text="蔷薇"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="1dp"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

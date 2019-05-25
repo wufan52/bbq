@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:padding="5dp">
+
+	<ImageView
+		android:layout_height="45dp"
+		android:layout_width="45dp"
+		android:id="@+id/relistitem1ImageView1"/>
+
+	<RelativeLayout
+		android:layout_alignTop="@+id/relistitem1ImageView1"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_toRightOf="@id/relistitem1ImageView1"
+		android:layout_marginLeft="5dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="中型文本"
+			android:textColor="#000000"
+			android:id="@+id/relistitem1TextView1"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="小型文本"
+			android:layout_below="@id/relistitem1TextView1"
+			android:layout_marginTop="5dp"
+			android:id="@+id/relistitem1TextView2"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="文本"
+			android:layout_alignParentRight="true"
+			android:id="@+id/relistitem1TextView4"/>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:layout_below="@id/relistitem1ImageView1"
+		android:layout_marginTop="4dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="小型文本"
+			android:layout_alignParentRight="true"
+			android:id="@+id/relistitem1TextView3"/>
+
+	</RelativeLayout>
+
+</RelativeLayout>
+
+

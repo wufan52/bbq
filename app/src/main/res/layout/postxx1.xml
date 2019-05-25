@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="10dp">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_marginBottom="15dp">
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:layout_width="wrap_content"
+				android:text="Medium Text"
+				android:id="@+id/postnr"/>
+
+			<ImageView
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:visibility="visible"
+				android:id="@+id/posttp"/>
+
+		</LinearLayout>
+
+		<View
+			android:background="?android:attr/dividerVertical"
+			android:layout_height="1dp"
+			android:layout_width="match_parent"
+			android:layout_marginBottom="10dp"/>
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal"
+				android:gravity="left|center"
+				android:layout_weight="1">
+
+				<ImageView
+					android:layout_height="20dp"
+					android:layout_width="20dp"
+					android:src="@drawable/ic_thumb_up"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Text"
+					android:layout_marginRight="20dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:id="@+id/zz"/>
+
+				<ImageView
+					android:layout_height="20dp"
+					android:layout_width="20dp"
+					android:src="@drawable/ic_favorite_outline_black_24dp"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="Text"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:id="@+id/yl"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal"
+				android:gravity="right|center"
+				android:layout_weight="1">
+
+				<ImageView
+					android:layout_height="35dp"
+					android:layout_width="35dp"
+					android:id="@+id/posttx"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:text="Small Text"
+					android:id="@+id/postname"
+					android:layout_marginLeft="10dp"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="30dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:background="#FFE1E1E1"
+		android:gravity="left|center">
+
+		<View
+			android:background="?attr/colorPrimary"
+			android:layout_height="20dp"
+			android:layout_width="5dp"
+			android:layout_marginRight="20dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:text="评论"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

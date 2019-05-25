@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	app:layout_behavior="@string/appbar_scrolling_view_behavior"
+	android:background="#FFFFFF">
+
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			android:background="#FFFFFFFF">
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_marginTop="35dp"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="49dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="left|center">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="100dp"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:text="性别："/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="right|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:id="@+id/xb"
+						android:text=""/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="120dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="left|center">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="100dp"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:text="个性签名："/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="right|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:id="@+id/qm"
+						android:text=""/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:gravity="left|center">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="100dp"
+					android:orientation="horizontal"
+					android:gravity="left|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_width="wrap_content"
+						android:text="爱好："/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="right|center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:id="@+id/ah"
+						android:text=""/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="2dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:id="@+id/qc"
+				android:gravity="left|center">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="退出账号"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:id="@+id/gx"
+				android:gravity="left|center">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="检查更新"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="50dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:id="@+id/zt"
+                android:onClick="ztgh"
+				android:gravity="left|center">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:text="切换主题"/>
+
+			</LinearLayout>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="0.5dp"
+				android:background="#FFEAE9E9"/>
+
+			<LinearLayout
+				android:layout_height="200dp"
+				android:layout_width="match_parent"
+				android:orientation="horizontal"
+				android:paddingBottom="40dp"
+				android:gravity="bottom|center">
+
+				<TextView
+					android:layout_height="45dp"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:text="编辑信息"
+					android:gravity="center"
+					android:id="@+id/bj"
+					android:background="?attr/colorAccent"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</android.support.v4.widget.NestedScrollView>
+

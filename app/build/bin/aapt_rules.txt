@@ -1,0 +1,232 @@
+# view res/layout/design_bottom_navigation_item.xml #generated:26
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# view res/layout/design_navigation_item.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# view res/layout/design_navigation_menu.xml #generated:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# view res/layout/design_layout_snackbar_include.xml #generated:18
+-keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:9
+# view res/layout/edpost.xml #generated:9
+# view res/layout/grzx.xml #generated:10
+# view res/layout/login.xml #generated:9
+# view res/layout/postxx.xml #generated:9
+# view res/layout/signup.xml #generated:9
+# view res/layout/xg.xml #generated:9
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# view res/layout/design_text_input_password_icon.xml #generated:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# view res/layout/grzx.xml #generated:17
+-keep class android.support.design.widget.CollapsingToolbarLayout { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:2
+# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+# view res/layout/edpost.xml #generated:2
+# view res/layout/grzx.xml #generated:2
+# view res/layout/login.xml #generated:2
+# view res/layout/postxx.xml #generated:2
+# view res/layout/signup.xml #generated:2
+# view res/layout/xg.xml #generated:2
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# view res/layout/edpost.xml #generated:26
+# view res/layout/grzx.xml #generated:43
+-keep class android.support.design.widget.FloatingActionButton { <init>(...); }
+
+# view res/layout/main.xml #generated:16
+-keep class android.support.design.widget.NavigationView { <init>(...); }
+
+# view res/layout/design_layout_snackbar.xml #generated:18
+# view sw600dp-v13/res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:21
+-keep class android.support.design.widget.TabLayout { <init>(...); }
+
+# view res/layout/content_activity_login.xml #generated:46
+# view res/layout/content_activity_login.xml #generated:77
+# view res/layout/edpost1.xml #generated:38
+# view res/layout/signup1.xml #generated:125
+# view res/layout/signup1.xml #generated:63
+# view res/layout/signup1.xml #generated:94
+-keep class android.support.design.widget.TextInputLayout { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:29
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/main.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:41
+# view res/layout/content_scrolling.xml #generated:2
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# view res/layout/biaobai.xml #generated:16
+# view res/layout/postxx.xml #generated:30
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view res/layout/abc_select_dialog_material.xml #generated:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_material.xml #generated:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# view res/layout/content_activity_login.xml #generated:11
+# view res/layout/content_activity_login.xml #generated:123
+# view res/layout/content_activity_login.xml #generated:94
+# view res/layout/grzx1.xml #generated:10
+# view res/layout/item.xml #generated:7
+# view res/layout/signup1.xml #generated:11
+# view res/layout/signup1.xml #generated:142
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# view res/layout/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# view res/layout/abc_alert_dialog_title_material.xml #generated:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_dialog_title_material.xml #generated:22
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/app_bar_main.xml #generated:14
+# view res/layout/edpost.xml #generated:14
+# view res/layout/grzx.xml #generated:29
+# view res/layout/login.xml #generated:14
+# view res/layout/postxx.xml #generated:14
+# view res/layout/signup.xml #generated:14
+# view res/layout/xg.xml #generated:14
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:50
+# view res/layout/app_bar_main.xml #generated:60
+-keep class com.github.clans.fab.FloatingActionButton { <init>(...); }
+
+# view res/layout/app_bar_main.xml #generated:34
+-keep class com.github.clans.fab.FloatingActionMenu { <init>(...); }
+
+# view res/layout/logcat_dialog.xml #generated:28
+-keep class com.hdl.logcatdialog.OkEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.ljbbq.jin.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.ljbbq.jin.application { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.ljbbq.jin.edpost { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.ljbbq.jin.grzx { <init>(...); }
+
+# view res/layout/grzx1.xml #generated:32
+# view res/layout/nav_header_main.xml #generated:16
+# view res/layout/signup1.xml #generated:40
+-keep class com.ljbbq.jin.image.imageview { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.ljbbq.jin.login { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class com.ljbbq.jin.postxx { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.ljbbq.jin.signup { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.ljbbq.jin.xg { <init>(...); }
+
+# onClick res/layout/zt.xml #generated:11
+-keepclassmembers class * { *** SaKura(...); }
+
+# onClick res/layout/edpost1.xml #generated:54
+-keepclassmembers class * { *** choose_img(...); }
+
+# onClick res/layout/zt.xml #generated:67
+-keepclassmembers class * { *** cq(...); }
+
+# onClick res/layout/zt.xml #generated:39
+-keepclassmembers class * { *** cr(...); }
+
+# onClick res/layout/zt.xml #generated:151
+-keepclassmembers class * { *** lm(...); }
+
+# onClick res/layout/content_activity_login.xml #generated:94
+-keepclassmembers class * { *** login(...); }
+
+# onClick res/layout/content_activity_login.xml #generated:123
+# onClick res/layout/signup1.xml #generated:142
+-keepclassmembers class * { *** logins(...); }
+
+# onClick res/layout/zt.xml #generated:207
+-keepclassmembers class * { *** qw(...); }
+
+# onClick res/layout/signup1.xml #generated:40
+-keepclassmembers class * { *** tp(...); }
+
+# onClick res/layout/zt.xml #generated:95
+-keepclassmembers class * { *** wg(...); }
+
+# onClick res/layout/zt.xml #generated:123
+-keepclassmembers class * { *** zs(...); }
+
+# onClick res/layout/content_scrolling.xml #generated:195
+-keepclassmembers class * { *** ztgh(...); }
+
+# onClick res/layout/zt.xml #generated:179
+-keepclassmembers class * { *** zy(...); }
+

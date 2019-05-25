@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:paddingTop="10dp"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:background="#FFFFFF"
+	android:gravity="top"
+	android:paddingBottom="1dp"
+	android:layout_marginTop="60dp">
+
+	<View
+		android:layout_height="0.5dp"
+		android:layout_width="match_parent"
+		android:background="?android:attr/dividerVertical"/>
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="60dp"
+			android:text="昵称："/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="Small Text"
+			android:gravity="right|center"
+			android:id="@+id/nc"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="0.5dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="65dp"
+			android:text="QQ号："/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="Small Text"
+			android:gravity="right|center"
+			android:id="@+id/qq"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="2dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="65dp"
+			android:text="性别："/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="Small Text"
+			android:gravity="right|center"
+			android:id="@+id/xb"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="0.5dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="75dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="65dp"
+			android:text="爱好："/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="Small Text"
+			android:gravity="right|center"
+			android:id="@+id/ah"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="0.5dp"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="100dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="left|center">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="65dp"
+			android:text="签名："/>
+
+		<TextView
+			android:layout_height="match_parent"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:text="Small Text"
+			android:gravity="right|center"
+			android:id="@+id/qm"/>
+
+	</LinearLayout>
+
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_height="0.5dp"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="45dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:background="?attr/colorAccent"
+		android:id="@+id/qd"
+		android:text="确定"
+		android:gravity="center"
+		android:layout_marginTop="100dp"/>
+
+</LinearLayout>
+

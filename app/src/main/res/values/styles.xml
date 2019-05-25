@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>-->
+
+    <style name="colorAccent">
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+    </style>
+    
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SaKura" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#F97296</item>
+        <item name="colorPrimaryDark">#F97296</item>
+        <item name="colorAccent">#F97296</item>
+	</style>
+    
+    <style name="cr" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#55A26A</item>
+        <item name="colorPrimaryDark">#55A26A</item>
+        <item name="colorAccent">#55A26A</item>
+	</style>
+    
+    <style name="cq" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#CA7472</item>
+        <item name="colorPrimaryDark">#CA7472</item>
+        <item name="colorAccent">#CA7472</item>
+	</style>
+    
+    <style name="wg" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#5FC4B8</item>
+        <item name="colorPrimaryDark">#5FC4B8</item>
+        <item name="colorAccent">#5FC4B8</item>
+	</style>
+    
+    <style name="zs" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#775545</item>
+        <item name="colorPrimaryDark">#775545</item>
+        <item name="colorAccent">#775545</item>
+	</style>
+    
+    <style name="lm" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#6084C2</item>
+        <item name="colorPrimaryDark">#6084C2</item>
+        <item name="colorAccent">#6084C2</item>
+	</style>
+    
+    <style name="zy" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#A494DF</item>
+        <item name="colorPrimaryDark">#A494DF</item>
+        <item name="colorAccent">#A494DF</item>
+	</style>
+    
+      <style name="qw" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#E84E75</item>
+        <item name="colorPrimaryDark">#E84E75</item>
+        <item name="colorAccent">#E84E75</item>
+	</style>
+        
+</resources>
